@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "ad44407ba0645f27ce6a869591ee295f--ash-ketchum-costume-halloween-costume-ideas.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

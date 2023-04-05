@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849889FF29DDDA2200B06B0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849889FE29DDDA2200B06B0E /* Assets.xcassets */; };
+		84988A0329DDDA2200B06B0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84988A0229DDDA2200B06B0E /* Preview Assets.xcassets */; };
+		84988A0D29DDDA2200B06B0E /* OtakuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A0C29DDDA2200B06B0E /* OtakuTests.swift */; };
+		84988A1729DDDA2200B06B0E /* OtakuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A1629DDDA2200B06B0E /* OtakuUITests.swift */; };
+		84988A1929DDDA2200B06B0E /* OtakuUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A1829DDDA2200B06B0E /* OtakuUITestsLaunchTests.swift */; };
+		84988A2629DDDA5300B06B0E /* OtakuGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A2529DDDA5300B06B0E /* OtakuGame.swift */; };
+		84988A2A29DDDA7500B06B0E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A2829DDDA7500B06B0E /* Game.swift */; };
+		84988A2B29DDDA7500B06B0E /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A2929DDDA7500B06B0E /* Question.swift */; };
+		84988A3D29DDDA8500B06B0E /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A2D29DDDA8500B06B0E /* QuestionView.swift */; };
+		84988A3E29DDDA8500B06B0E /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A2F29DDDA8500B06B0E /* ScoreViewModel.swift */; };
+		84988A3F29DDDA8500B06B0E /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A3029DDDA8500B06B0E /* GameViewModel.swift */; };
+		84988A4029DDDA8500B06B0E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A3129DDDA8500B06B0E /* GameView.swift */; };
+		84988A4129DDDA8500B06B0E /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A3229DDDA8500B06B0E /* GameColor.swift */; };
+		84988A4229DDDA8500B06B0E /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A3329DDDA8500B06B0E /* ChoiceTextView.swift */; };
+		84988A4329DDDA8500B06B0E /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A3429DDDA8500B06B0E /* WelcomeView.swift */; };
+		84988A4429DDDA8500B06B0E /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A3529DDDA8500B06B0E /* BottomTextView.swift */; };
+		84988A4529DDDA8500B06B0E /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A3629DDDA8500B06B0E /* ScoreView.swift */; };
+		84988A4629DDDA8500B06B0E /* bubble.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84988A3829DDDA8500B06B0E /* bubble.wav */; };
+		84988A4729DDDA8500B06B0E /* background.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84988A3929DDDA8500B06B0E /* background.wav */; };
+		84988A4829DDDA8500B06B0E /* winner.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84988A3A29DDDA8500B06B0E /* winner.wav */; };
+		84988A4929DDDA8500B06B0E /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84988A3B29DDDA8500B06B0E /* PlaySound.swift */; };
+		84988A4A29DDDA8500B06B0E /* success.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84988A3C29DDDA8500B06B0E /* success.wav */; };
+		84988A5029DDDB1700B06B0E /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 84988A4F29DDDB1700B06B0E /* ConfettiSwiftUI */; };
+		84988A5329DDDB2A00B06B0E /* Subsonic in Frameworks */ = {isa = PBXBuildFile; productRef = 84988A5229DDDB2A00B06B0E /* Subsonic */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84988A0929DDDA2200B06B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849889EF29DDDA2000B06B0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849889F629DDDA2000B06B0E;
+			remoteInfo = Otaku;
+		};
+		84988A1329DDDA2200B06B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849889EF29DDDA2000B06B0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849889F629DDDA2000B06B0E;
+			remoteInfo = Otaku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849889F729DDDA2000B06B0E /* Otaku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otaku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849889FE29DDDA2200B06B0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84988A0029DDDA2200B06B0E /* Otaku.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Otaku.entitlements; sourceTree = "<group>"; };
+		84988A0229DDDA2200B06B0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84988A0829DDDA2200B06B0E /* OtakuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtakuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84988A0C29DDDA2200B06B0E /* OtakuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuTests.swift; sourceTree = "<group>"; };
+		84988A1229DDDA2200B06B0E /* OtakuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OtakuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84988A1629DDDA2200B06B0E /* OtakuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuUITests.swift; sourceTree = "<group>"; };
+		84988A1829DDDA2200B06B0E /* OtakuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtakuUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		84988A2529DDDA5300B06B0E /* OtakuGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OtakuGame.swift; sourceTree = "<group>"; };
+		84988A2829DDDA7500B06B0E /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		84988A2929DDDA7500B06B0E /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		84988A2D29DDDA8500B06B0E /* QuestionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		84988A2F29DDDA8500B06B0E /* ScoreViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+		84988A3029DDDA8500B06B0E /* GameViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		84988A3129DDDA8500B06B0E /* GameView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		84988A3229DDDA8500B06B0E /* GameColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		84988A3329DDDA8500B06B0E /* ChoiceTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		84988A3429DDDA8500B06B0E /* WelcomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		84988A3529DDDA8500B06B0E /* BottomTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		84988A3629DDDA8500B06B0E /* ScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		84988A3829DDDA8500B06B0E /* bubble.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bubble.wav; sourceTree = "<group>"; };
+		84988A3929DDDA8500B06B0E /* background.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = background.wav; sourceTree = "<group>"; };
+		84988A3A29DDDA8500B06B0E /* winner.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = winner.wav; sourceTree = "<group>"; };
+		84988A3B29DDDA8500B06B0E /* PlaySound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		84988A3C29DDDA8500B06B0E /* success.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = success.wav; sourceTree = "<group>"; };
+		84988A4B29DDDAC300B06B0E /* Subsonic */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Subsonic; path = "../../../../Library/Developer/Xcode/DerivedData/Otaku_Game-gjzxsznhanzcdxdygzcnsroczxam/SourcePackages/checkouts/Subsonic"; sourceTree = "<group>"; };
+		84988A4C29DDDAC300B06B0E /* ConfettiSwiftUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ConfettiSwiftUI; path = "../../../../Library/Developer/Xcode/DerivedData/Otaku_Game-gjzxsznhanzcdxdygzcnsroczxam/SourcePackages/checkouts/ConfettiSwiftUI"; sourceTree = "<group>"; };
+		84988A4D29DDDACD00B06B0E /* ConfettiSwiftUI */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ConfettiSwiftUI; path = "../../../../Library/Developer/Xcode/DerivedData/Otaku_Game-gjzxsznhanzcdxdygzcnsroczxam/SourcePackages/checkouts/ConfettiSwiftUI"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849889F429DDDA2000B06B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84988A5329DDDB2A00B06B0E /* Subsonic in Frameworks */,
+				84988A5029DDDB1700B06B0E /* ConfettiSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84988A0529DDDA2200B06B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84988A0F29DDDA2200B06B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849889EE29DDDA2000B06B0E = {
+			isa = PBXGroup;
+			children = (
+				849889F929DDDA2000B06B0E /* Otaku */,
+				84988A0B29DDDA2200B06B0E /* OtakuTests */,
+				84988A1529DDDA2200B06B0E /* OtakuUITests */,
+				849889F829DDDA2000B06B0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849889F829DDDA2000B06B0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849889F729DDDA2000B06B0E /* Otaku.app */,
+				84988A0829DDDA2200B06B0E /* OtakuTests.xctest */,
+				84988A1229DDDA2200B06B0E /* OtakuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849889F929DDDA2000B06B0E /* Otaku */ = {
+			isa = PBXGroup;
+			children = (
+				84988A2529DDDA5300B06B0E /* OtakuGame.swift */,
+				84988A2729DDDA7500B06B0E /* Models */,
+				84988A2C29DDDA8500B06B0E /* Views */,
+				84988A2E29DDDA8500B06B0E /* ViewModels */,
+				84988A0029DDDA2200B06B0E /* Otaku.entitlements */,
+				849889FE29DDDA2200B06B0E /* Assets.xcassets */,
+				84988A0129DDDA2200B06B0E /* Preview Content */,
+			);
+			path = Otaku;
+			sourceTree = "<group>";
+		};
+		84988A0129DDDA2200B06B0E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84988A0229DDDA2200B06B0E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84988A0B29DDDA2200B06B0E /* OtakuTests */ = {
+			isa = PBXGroup;
+			children = (
+				84988A0C29DDDA2200B06B0E /* OtakuTests.swift */,
+			);
+			path = OtakuTests;
+			sourceTree = "<group>";
+		};
+		84988A1529DDDA2200B06B0E /* OtakuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84988A4C29DDDAC300B06B0E /* ConfettiSwiftUI */,
+				84988A4D29DDDACD00B06B0E /* ConfettiSwiftUI */,
+				84988A4B29DDDAC300B06B0E /* Subsonic */,
+				84988A1629DDDA2200B06B0E /* OtakuUITests.swift */,
+				84988A1829DDDA2200B06B0E /* OtakuUITestsLaunchTests.swift */,
+			);
+			path = OtakuUITests;
+			sourceTree = "<group>";
+		};
+		84988A2729DDDA7500B06B0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84988A2829DDDA7500B06B0E /* Game.swift */,
+				84988A2929DDDA7500B06B0E /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84988A2C29DDDA8500B06B0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				84988A2D29DDDA8500B06B0E /* QuestionView.swift */,
+				84988A3129DDDA8500B06B0E /* GameView.swift */,
+				84988A3229DDDA8500B06B0E /* GameColor.swift */,
+				84988A3329DDDA8500B06B0E /* ChoiceTextView.swift */,
+				84988A3429DDDA8500B06B0E /* WelcomeView.swift */,
+				84988A3529DDDA8500B06B0E /* BottomTextView.swift */,
+				84988A3629DDDA8500B06B0E /* ScoreView.swift */,
+				84988A3729DDDA8500B06B0E /* Sound */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		84988A2E29DDDA8500B06B0E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				84988A2F29DDDA8500B06B0E /* ScoreViewModel.swift */,
+				84988A3029DDDA8500B06B0E /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		84988A3729DDDA8500B06B0E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				84988A3829DDDA8500B06B0E /* bubble.wav */,
+				84988A3929DDDA8500B06B0E /* background.wav */,
+				84988A3A29DDDA8500B06B0E /* winner.wav */,
+				84988A3B29DDDA8500B06B0E /* PlaySound.swift */,
+				84988A3C29DDDA8500B06B0E /* success.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849889F629DDDA2000B06B0E /* Otaku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84988A1C29DDDA2200B06B0E /* Build configuration list for PBXNativeTarget "Otaku" */;
+			buildPhases = (
+				849889F329DDDA2000B06B0E /* Sources */,
+				849889F429DDDA2000B06B0E /* Frameworks */,
+				849889F529DDDA2000B06B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Otaku;
+			packageProductDependencies = (
+				84988A4F29DDDB1700B06B0E /* ConfettiSwiftUI */,
+				84988A5229DDDB2A00B06B0E /* Subsonic */,
+			);
+			productName = Otaku;
+			productReference = 849889F729DDDA2000B06B0E /* Otaku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84988A0729DDDA2200B06B0E /* OtakuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84988A1F29DDDA2200B06B0E /* Build configuration list for PBXNativeTarget "OtakuTests" */;
+			buildPhases = (
+				84988A0429DDDA2200B06B0E /* Sources */,
+				84988A0529DDDA2200B06B0E /* Frameworks */,
+				84988A0629DDDA2200B06B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84988A0A29DDDA2200B06B0E /* PBXTargetDependency */,
+			);
+			name = OtakuTests;
+			productName = OtakuTests;
+			productReference = 84988A0829DDDA2200B06B0E /* OtakuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84988A1129DDDA2200B06B0E /* OtakuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84988A2229DDDA2200B06B0E /* Build configuration list for PBXNativeTarget "OtakuUITests" */;
+			buildPhases = (
+				84988A0E29DDDA2200B06B0E /* Sources */,
+				84988A0F29DDDA2200B06B0E /* Frameworks */,
+				84988A1029DDDA2200B06B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84988A1429DDDA2200B06B0E /* PBXTargetDependency */,
+			);
+			name = OtakuUITests;
+			productName = OtakuUITests;
+			productReference = 84988A1229DDDA2200B06B0E /* OtakuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849889EF29DDDA2000B06B0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					849889F629DDDA2000B06B0E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					84988A0729DDDA2200B06B0E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 849889F629DDDA2000B06B0E;
+					};
+					84988A1129DDDA2200B06B0E = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 849889F629DDDA2000B06B0E;
+					};
+				};
+			};
+			buildConfigurationList = 849889F229DDDA2000B06B0E /* Build configuration list for PBXProject "Otaku" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849889EE29DDDA2000B06B0E;
+			packageReferences = (
+				84988A4E29DDDB1700B06B0E /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */,
+				84988A5129DDDB2A00B06B0E /* XCRemoteSwiftPackageReference "Subsonic" */,
+			);
+			productRefGroup = 849889F829DDDA2000B06B0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849889F629DDDA2000B06B0E /* Otaku */,
+				84988A0729DDDA2200B06B0E /* OtakuTests */,
+				84988A1129DDDA2200B06B0E /* OtakuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849889F529DDDA2000B06B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84988A4629DDDA8500B06B0E /* bubble.wav in Resources */,
+				84988A0329DDDA2200B06B0E /* Preview Assets.xcassets in Resources */,
+				84988A4829DDDA8500B06B0E /* winner.wav in Resources */,
+				84988A4729DDDA8500B06B0E /* background.wav in Resources */,
+				84988A4A29DDDA8500B06B0E /* success.wav in Resources */,
+				849889FF29DDDA2200B06B0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84988A0629DDDA2200B06B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84988A1029DDDA2200B06B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849889F329DDDA2000B06B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84988A3F29DDDA8500B06B0E /* GameViewModel.swift in Sources */,
+				84988A3D29DDDA8500B06B0E /* QuestionView.swift in Sources */,
+				84988A3E29DDDA8500B06B0E /* ScoreViewModel.swift in Sources */,
+				84988A4129DDDA8500B06B0E /* GameColor.swift in Sources */,
+				84988A2B29DDDA7500B06B0E /* Question.swift in Sources */,
+				84988A4529DDDA8500B06B0E /* ScoreView.swift in Sources */,
+				84988A4329DDDA8500B06B0E /* WelcomeView.swift in Sources */,
+				84988A4429DDDA8500B06B0E /* BottomTextView.swift in Sources */,
+				84988A4229DDDA8500B06B0E /* ChoiceTextView.swift in Sources */,
+				84988A2629DDDA5300B06B0E /* OtakuGame.swift in Sources */,
+				84988A2A29DDDA7500B06B0E /* Game.swift in Sources */,
+				84988A4929DDDA8500B06B0E /* PlaySound.swift in Sources */,
+				84988A4029DDDA8500B06B0E /* GameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84988A0429DDDA2200B06B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84988A0D29DDDA2200B06B0E /* OtakuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84988A0E29DDDA2200B06B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84988A1729DDDA2200B06B0E /* OtakuUITests.swift in Sources */,
+				84988A1929DDDA2200B06B0E /* OtakuUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84988A0A29DDDA2200B06B0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849889F629DDDA2000B06B0E /* Otaku */;
+			targetProxy = 84988A0929DDDA2200B06B0E /* PBXContainerItemProxy */;
+		};
+		84988A1429DDDA2200B06B0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849889F629DDDA2000B06B0E /* Otaku */;
+			targetProxy = 84988A1329DDDA2200B06B0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		84988A1A29DDDA2200B06B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84988A1B29DDDA2200B06B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		84988A1D29DDDA2200B06B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Otaku/Otaku.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Otaku/Preview Content\"";
+				DEVELOPMENT_TEAM = TDR4DT8JW4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.beatrice.Otaku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84988A1E29DDDA2200B06B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Otaku/Otaku.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Otaku/Preview Content\"";
+				DEVELOPMENT_TEAM = TDR4DT8JW4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.beatrice.Otaku;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84988A2029DDDA2200B06B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDR4DT8JW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.beatrice.OtakuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Otaku.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Otaku";
+			};
+			name = Debug;
+		};
+		84988A2129DDDA2200B06B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDR4DT8JW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.beatrice.OtakuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Otaku.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Otaku";
+			};
+			name = Release;
+		};
+		84988A2329DDDA2200B06B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDR4DT8JW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.beatrice.OtakuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Otaku;
+			};
+			name = Debug;
+		};
+		84988A2429DDDA2200B06B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TDR4DT8JW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = come.beatrice.OtakuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Otaku;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849889F229DDDA2000B06B0E /* Build configuration list for PBXProject "Otaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84988A1A29DDDA2200B06B0E /* Debug */,
+				84988A1B29DDDA2200B06B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84988A1C29DDDA2200B06B0E /* Build configuration list for PBXNativeTarget "Otaku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84988A1D29DDDA2200B06B0E /* Debug */,
+				84988A1E29DDDA2200B06B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84988A1F29DDDA2200B06B0E /* Build configuration list for PBXNativeTarget "OtakuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84988A2029DDDA2200B06B0E /* Debug */,
+				84988A2129DDDA2200B06B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84988A2229DDDA2200B06B0E /* Build configuration list for PBXNativeTarget "OtakuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84988A2329DDDA2200B06B0E /* Debug */,
+				84988A2429DDDA2200B06B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		84988A4E29DDDB1700B06B0E /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/simibac/ConfettiSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		84988A5129DDDB2A00B06B0E /* XCRemoteSwiftPackageReference "Subsonic" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Subsonic";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		84988A4F29DDDB1700B06B0E /* ConfettiSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84988A4E29DDDB1700B06B0E /* XCRemoteSwiftPackageReference "ConfettiSwiftUI" */;
+			productName = ConfettiSwiftUI;
+		};
+		84988A5229DDDB2A00B06B0E /* Subsonic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 84988A5129DDDB2A00B06B0E /* XCRemoteSwiftPackageReference "Subsonic" */;
+			productName = Subsonic;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 849889EF29DDDA2000B06B0E /* Project object */;
+}
